@@ -1,7 +1,10 @@
 header{
     background-color: #2C3E50;
-    border: 2px solid black;
     height: 90px;
+}
+
+footer{
+    background-color: #3B536D;
 }
 
 .container-md{
@@ -10,6 +13,7 @@ header{
 
 .debug{
     min-height: 50px;
+    border: 2PX solid black;
 }
 
 .azzurrino{
