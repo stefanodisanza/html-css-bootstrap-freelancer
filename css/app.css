@@ -1,0 +1,17 @@
+header{
+    background-color: #2C3E50;
+    border: 2px solid black;
+    height: 90px;
+}
+
+.container-md{
+    border: 2px solid orangered;
+}
+
+.debug{
+    min-height: 50px;
+}
+
+.azzurrino{
+    background-color: #19BC9C;
+}
