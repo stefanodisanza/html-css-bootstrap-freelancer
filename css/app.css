@@ -32,6 +32,9 @@ li{
 .azzurrino{
     background-color: #19BC9C;
 }
+.text-azzurrino{
+    color: #19BC9B;
+}
 
 img{
     max-width: 100%;
@@ -53,26 +56,31 @@ img{
     background-color: black;
 }
 
-
-// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media screen and (min-width: 576px) {
-    .col-6,
-    .col-4{
-        width: 100%;
-    }
+.pb-20{
+    padding-bottom: 100px;
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+.btn-primary{
+    background-color: #19BC9B !important;
+    border: none !important;
+}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+.fa-brands{
+    border: 2px solid white;
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+}
 
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... }
+nav{
+    display: none;
+}
+
+
+@media (min-width: 576px) { 
+    nav{
+        display: block;
+    }
+    .sparire{
+        display: none;
+    }
+    
+}

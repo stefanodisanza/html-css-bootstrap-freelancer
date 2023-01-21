@@ -11,17 +11,18 @@
 
 </head>
 <body>
-    <header>
-        <div class="container-md debug d-flex a">
+    <header class="sticky-top">
+        <div class="container-md debug d-flex  position-absolute top-50 start-50 translate-middle">
             <div class="col-12 d-flex justify-content-between align-items-center ">
                 <h3>START BOOTSTRAP</h3>
                 <nav>
-                    <ul class="d-flex gap-3">
+                    <ul class="d-flex gap-3 align-items-center justify-content-center">
                         <li><span>PORTFOLIO</span></li>
                         <li><span>ABOUT</span></li>
                         <li><span>CONTACT</span></li>
                     </ul>
                 </nav>
+                <i class="fa-solid fa-bars sparire"></i>
             </div>
         </div>
     </header>
@@ -30,14 +31,14 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <img class="avatar-img" src="./img/avatar.svg" alt="">
-                    <h2>START BOOTSTRAP</h2>
-                    <div class="d-flex justify-content-center align-items-center gap-3">
+                    <h2 class="py-4">START BOOTSTRAP</h2>
+                    <div class="d-flex justify-content-center align-items-center gap-3 py-4">
                         <div class="barra-decorativa"></div>
                         <i class="fa-solid fa-star"></i>
                         <div class="barra-decorativa"></div>
                     </div>
                     
-                    <span>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
+                    <span class="py-4">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
 
                 </div>
             </div>
@@ -48,29 +49,29 @@
         <div class="container-md">
             <div class="row debug gy-4">
                 <div class="col-12 debug text-dark ">                   
-                    <h2>PORTFOLIO</h2>
-                    <div class="d-flex justify-content-center align-items-center gap-3">
+                    <h2 class="py-4">PORTFOLIO</h2>
+                    <div class="d-flex justify-content-center align-items-center gap-3 py-4">
                         <div class="barra-decorativa-dark"></div>
                         <i class="fa-solid fa-star text-dark"></i>
                         <div class="barra-decorativa-dark"></div>
                     </div>                
                 </div>
-                <div class="col-4 debug">
+                <div class="col- col-sm-6 col-lg-4 debug">
                     <img class="rounded" src="./img/cabin.png" alt="">
                 </div>
-                <div class="col-4 debug">
+                <div class="col- col-sm-6 col-lg-4 debug">
                     <img class="rounded" src="./img/cake.png" alt="">
                 </div>
-                <div class="col-4 debug">
+                <div class="col- col-sm-6 col-lg-4 debug">
                     <img class="rounded" src="./img/circus.png" alt="">
                 </div>
-                <div class="col-4 debug">
+                <div class="col- col-sm-6 col-lg-4 debug">
                     <img class="rounded" src="./img/game.png" alt="">
                 </div>
-                <div class="col-4 debug">
+                <div class="col- col-sm-6 col-lg-4 debug">
                     <img class="rounded" src="./img/safe.png" alt="">
                 </div>
-                <div class="col-4 debug">
+                <div class="col- col-sm-6 col-lg-4 debug">
                     <img class="rounded" src="./img/submarine.png" alt="">
                 </div>
             </div>          
@@ -80,16 +81,21 @@
         <div class="container-sm debug">
             <div class="row debug">
                 <div class="col-12 debug text-center">
-                    <h2>ABOUT</h2>
-                    <div class="d-flex justify-content-center align-items-center gap-3">
+                    <h2 class="py-4">ABOUT</h2>
+                    <div class="d-flex justify-content-center align-items-center gap-3 py-4">
                         <div class="barra-decorativa"></div>
                         <i class="fa-solid fa-star"></i>
                         <div class="barra-decorativa"></div>
                     </div>
                 </div>
-                <div class="col-6 debug"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe odit quaerat iste deleniti eveniet quod delectus doloremque molestias tenetur possimus maiores iure placeat, quam excepturi facilis minima cum est dolorum odio quidem a rerum sint?</div>
-                <div class="col-6 debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quia totam provident autem ut! Consequuntur a hic pariatur. Aliquam eos qui tempora maiores fugit expedita.</div>
-                <div class="col-12 debug text-center">Download</div>
+                <div class="col- col-sm-6 py-4 debug"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe odit quaerat iste deleniti eveniet quod delectus doloremque molestias tenetur possimus maiores iure placeat, quam excepturi facilis minima cum est dolorum odio quidem a rerum sint?</div>
+                <div class="col- col-sm-6 py-4 debug">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quia totam provident autem ut! Consequuntur a hic pariatur. Aliquam eos qui tempora maiores fugit expedita.</div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-light">
+                        <i class="fa-solid fa-download me-2"></i>Download
+                    </button>
+                </div>
+                   
             </div>
         </div>
     </section>
@@ -97,18 +103,21 @@
         <div class="container-sm">
             <div class="row">
                 <div class="col-12 debug text-center text-dark">
-                    <h2>CONTACT ME</h2>
-                    <div class="d-flex justify-content-center align-items-center gap-3">
+                    <h2 class="py-4">CONTACT ME</h2>
+                    <div class="d-flex justify-content-center align-items-center gap-3 py-4">
                         <div class="barra-decorativa-dark"></div>
                         <i class="fa-solid fa-star text-dark"></i>
                         <div class="barra-decorativa-dark"></div>
                     </div>    
                 </div>
-                <div class="col-12 debug text-dark">Name</div>
-                <div class="col-12 debug text-dark">Email Address</div>
-                <div class="col-12 debug text-dark">Phone Number</div>
-                <div class="col-12 debug text-dark">Message</div>
-                <div class="col-12 debug text-dark">Send</div>
+                <div class="col-12 debug text-dark border-bottom pb-4 pt-2">Name</div>
+                <div class="col-12 debug text-dark border-bottom pb-4 pt-2">Email Address</div>
+                <div class="col-12 debug text-dark border-bottom pb-4 pt-2">Phone Number</div>
+                <div class="col-12 debug text-dark border-bottom pt-1 pt-2 pb-20">Message</div>
+                <div>
+                    <button type="button" class="btn btn-primary my-4">Send</button>
+                </div>
+                
             </div>
         </div>
 
@@ -116,16 +125,46 @@
     <footer class="py-4">
         <div class="container-md debug text-center">
             <div class="row">
-                <div class="col-4">LOCATION</div>
-                <div class="col-4">AROUND THE WEB</div>
-                <div class="col-4">ABOUT FREELANCER</div>
+                <div class="col- col-sm-4 py-4">
+                    <h5>LOCATION</h5>
+                    <span>
+                        2215 John Daniel Drive Clark, MO
+                        <br>
+                        54243
+                    </span>
+
+                </div>
+                <div class="col- col-sm-4 py-4">
+                    <h5>AROUND THE WEB</h5>
+                    <span>
+                        <i class="fa-brands fa-facebook-f p-2 rounded-circle "></i>
+                        <i class="fa-brands fa-google p-2 rounded-circle "></i>
+                        <i class="fa-brands fa-twitter p-2 rounded-circle "></i>
+                        <i class="fa-brands fa-linkedin-in p-2 rounded-circle "></i>
+                    </span>
+
+                </div>
+                <div class="col- col-sm-4 py-4">
+                    <h5>ABOUT FREELANCER</h5>
+                    <span>
+                        Freekance is a free to use, open source        
+                        Bootstrap theme created by
+                        <span class="text-azzurrino">Start Bootstrap</span>.
+                    </span>
+
+                </div>
             </div>
         </div>
     </footer>
     <section class="copyright text-center py-4">
         <div class="container-md">
             <div class="row">
-                <div class="col-12">Copyright</div>
+                <div class="col-12">
+                    Copyright 
+                    <i class="fa-regular fa-copyright"></i>
+                    Stefano Di Sanza 2023
+
+                </div>
             </div>
         </div>
     </section>
