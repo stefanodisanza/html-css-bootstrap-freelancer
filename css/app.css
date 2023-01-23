@@ -22,6 +22,10 @@ footer{
     border: 2PX solid black;
 } */
 
+a{
+    text-decoration: none !important;
+    color: currentColor !important;
+}
 
 ul,
 ol,
