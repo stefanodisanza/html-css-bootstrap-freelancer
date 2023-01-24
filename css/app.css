@@ -79,6 +79,20 @@ nav{
 }
 
 
+.col-count-1{
+    column-count: 1;
+    column-gap: 1.5rem;
+} 
+
+
+button .fa-download:hover{
+    color: black;
+}
+
+
+
+
+
 @media (min-width: 576px) { 
     nav{
         display: block;
@@ -87,4 +101,9 @@ nav{
         display: none;
     }
     
+    .col-lg-count-2{
+        column-count: 2;
+        column-gap: 1.5rem; 
+    }
+
 }
